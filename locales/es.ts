@@ -11,6 +11,11 @@ export default {
 
 	// navbar
 	"header.navbar.button.cta": "Únete ahora",
+	"navbar.ul.item.home": "Home",
+	"navbar.ul.item.advantages": "Advantages",
+	"navbar.ul.item.how-it-works": "How it works?",
+	"navbar.ul.item.blog": "Blog",
+	"navbar.ul.item.faq": "FAQ",
 
 	// homepage dictionary
 	// - main

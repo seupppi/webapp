@@ -16,7 +16,7 @@ export default function Logomark() {
             width={160}
             height={160}
           />
-          <h1 className="sm:flex font-black text-3xl font-goldplay hidden">PPPI</h1>
+          <abbr title="Programa de Proteção à Propriedade Intelectual" className="sm:flex font-black text-3xl font-goldplay hidden no-underline ">PPPI</abbr>
         </div>
       </Link>
     </>

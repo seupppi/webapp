@@ -1,23 +1,28 @@
 // locales/pt-br.ts
 export default {
 	// dicionário de metadados
-	"metadata.title": "Puddy | Seu pet sempre conectado a você! 🐾",
+	"metadata.title": "Proteja o futuro da sua marca contra a pirataria - PPPI",
 	"metadata.description":
-		"Junte-se agora ao ecossistema inovador da Puddy e proteja seu quem você mais ama",
+	"O Programa de Proteção à Propriedade Intelectual (PPPI) oferece serviços de análise, registro e proteção de marcas e patentes, com tecnologia de ponta.",
 
 	hello: "Olá",
 	welcome: "Olá, {name}!",
 	and: "e",
 
 	// navbar
-	"header.navbar.button.cta": "Pré-Venda",
+	"header.navbar.button.cta": "Entrar",
+	"navbar.ul.item.home": "Início",
+	"navbar.ul.item.advantages": "Vantagens",
+	"navbar.ul.item.how-it-works": "Como funciona?",
+	"navbar.ul.item.blog": "Blog",
+	"navbar.ul.item.faq": "FAQ",
 
 	// homepage dictionary
 	// - main
 	// -- hero
-	"home.main.hero.title": "Nós cuidamos dos seus amigos",
-	"home.main.hero.description": "Prestamos serviços verdadeiramente comprometidos com o bem-estar dos seus animais de estimação.",
-	"home.main.hero.button": "Enviar",
+	"home.main.hero.title": "O serviço antipirataria que sua marca precisa, hoje!",
+	"home.main.hero.description": "Defendemos o seu negócio e os seus clientes contra ameaças digitais com a plataforma PPPI",
+	"home.main.hero.button": "Começar agora",
 
 	// -- ecosystem
 	"home.main.ecosystem.title": "Nosso Ecossistema",

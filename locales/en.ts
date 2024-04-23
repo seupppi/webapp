@@ -1,9 +1,9 @@
 // locales/en.ts
 export default {
 	// metadata dictorionary
-	"metadata.title": "Proteja o futuro da sua marca contra a pirataria - PPPI",
+	"metadata.title": "Protect the future of your brand against piracy - PPPI",
 	"metadata.description":
-		"O Programa de Proteção de Propriedade Intelectual (PPPI) oferece serviços de análise, registro e proteção de marcas e patentes. ",
+	"The Intellectual Property Protection Program (PPPI) offers analysis, registration and protection services for brands and patents in Brazil.",
 
 	hello: "Hello",
 	welcome: "Hello, {name}!",
@@ -11,6 +11,13 @@ export default {
 
 	// navbar
 	"header.navbar.button.cta": "Sign up",
+	"navbar.ul.item.home": "Home",
+	"navbar.ul.item.advantages": "Advantages",
+	"navbar.ul.item.how-it-works": "How it works?",
+	"navbar.ul.item.blog": "Blog",
+	"navbar.ul.item.faq": "FAQ",
+
+
 
 	// homepage dictorionary
 	// - main

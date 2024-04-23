@@ -35,11 +35,11 @@ export default async function Navbar() {
         </div>
 
         <ul className="flex items-center gap-10 max-md:gap-0 max-md:flex-col max-md:w-full max-md:fixed max-md:top-0 max-md:bottom-0 max-md:left-0 max-md:right-0 max-md:z-40 max-md:bg-[#36005B]">
-          <li className="max-md:w-full"><a className="font-medium no-underline text-md  max-md:text-center max-md:block max-md:p-2 ease-in duration-300 max-md:hover:bg-[#7C3AED] font-generalsans " data-menu-mobile="link" href="#home">Home</a></li>
-          <li className="max-md:w-full"><a className="font-medium no-underline text-md max-md:text-center max-md:block max-md:p-5 ease-in duration-300 max-md:hover:bg-[#7C3AED] font-generalsans" data-menu-mobile="link" href="#vantagens">Advantages</a></li>
-          <li className="max-md:w-full"><a className="font-medium no-underline text-md max-md:text-center max-md:block max-md:p-5 ease-in duration-300 max-md:hover:bg-[#7C3AED] font-generalsans" data-menu-mobile="link" href="#sobre">How it works?</a></li>
-          <li className="max-md:w-full"><a className="font-medium no-underline text-md max-md:text-center max-md:block max-md:p-5 ease-in duration-300 max-md:hover:bg-[#7C3AED] font-generalsans " data-menu-mobile="link" href="#blog">Blog</a></li>
-          <li className="max-md:w-full"><a className="font-medium no-underline text-md max-md:text-center max-md:block max-md:p-5 ease-in duration-300 max-md:hover:bg-[#7C3AED] font-generalsans " data-menu-mobile="link" href="#faq">FAQ</a></li>
+          <li className="max-md:w-full"><a className="font-medium no-underline text-md  max-md:text-center max-md:block max-md:p-2 ease-in duration-300 max-md:hover:bg-[#7C3AED] font-generalsans " data-menu-mobile="link" href="#home">{t('navbar.ul.item.home')}</a></li>
+          <li className="max-md:w-full"><a className="font-medium no-underline text-md max-md:text-center max-md:block max-md:p-5 ease-in duration-300 max-md:hover:bg-[#7C3AED] font-generalsans" data-menu-mobile="link" href="#advantages">{t('navbar.ul.item.advantages')}</a></li>
+          <li className="max-md:w-full"><a className="font-medium no-underline text-md max-md:text-center max-md:block max-md:p-5 ease-in duration-300 max-md:hover:bg-[#7C3AED] font-generalsans" data-menu-mobile="link" href="#about">{t('navbar.ul.item.how-it-works')}</a></li>
+          <li className="max-md:w-full"><a className="font-medium no-underline text-md max-md:text-center max-md:block max-md:p-5 ease-in duration-300 max-md:hover:bg-[#7C3AED] font-generalsans " data-menu-mobile="link" href="#blog">{t('navbar.ul.item.blog')}</a></li>
+          <li className="max-md:w-full"><a className="font-medium no-underline text-md max-md:text-center max-md:block max-md:p-5 ease-in duration-300 max-md:hover:bg-[#7C3AED] font-generalsans " data-menu-mobile="link" href="#faq">{t('navbar.ul.item.faq')}</a></li>
         </ul>
       </nav>
 

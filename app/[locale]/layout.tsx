@@ -5,7 +5,7 @@ import { getI18n, getScopedI18n } from '../../locales/server'
 import { Analytics } from '@vercel/analytics/react';
 import { I18nProviderClient } from '../../locales/client'
 import NextTopLoader from 'nextjs-toploader'
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,6 +23,7 @@ export default function RootLayout({
         <body className={inter.className}>
           <NextTopLoader showSpinner={false} />
           {children}
+          <SpeedInsights />
           <Analytics />
         </body>
       </html>
