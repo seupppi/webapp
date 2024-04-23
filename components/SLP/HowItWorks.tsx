@@ -20,7 +20,7 @@ export default async function HowItWorks() {
 
   return (
     <>
-      <div className="Hero container bg-center bg-no-repeat w-screen flex flex-col items-center justify-center mt-10 py-8 z-0  pt-2 md:max-w-6xl bg-primary" id='advantages'  >
+      <div className="Hero container bg-center bg-no-repeat w-screen flex flex-col items-center justify-center mt-10 py-8 z-0  pt-2  bg-primary" id='advantages'  >
         <div className="w-[1256px] h-[915px] flex-col justify-center items-center gap-[49px] inline-flex">
           <div className="bg-white flex-col justify-center items-center gap-2.5 flex">
             <div className="text-gray-700 text-2xl font-medium font-['General Sans']">Vantagens</div>
