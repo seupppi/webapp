@@ -22,13 +22,13 @@ export default async function HowItWorks() {
     <>
       <div className="Hero container bg-center bg-no-repeat w-screen flex flex-col items-center justify-center mt-10 py-8 z-0  pt-5  bg-primary" id='advantages'  >
         <div className="max-w-[1256px] h-[915px] flex-col justify-center items-center gap-[50px] inline-flex mt-10 ">
-          <div className="bg-white flex-col justify-center items-center gap-2.5 flex">
-            <p className="text-slate-600 text-xl lg:w-[28rem]  font-medium font-generalsans ">Vantagens</p>
+          <div className="flex-col justify-center items-center gap-2.5 flex">
+            <p className="text-slate-600 text-xl font-medium font-generalsans ">Vantagens</p>
             <h2 className="w-[809px] h-28 text-center text-black text-6xl font-semibold font-['General Sans'] leading-[64px]">Com a nossa plataforma você tem</h2>
           </div>
           <div className="flex-col justify-center items-center gap-8 flex">
             <div className="w-[928px] rounded-[20px] justify-center items-center gap-8 inline-flex">
-              <div className="grow shrink basis-0 h-[282px] bg-blue-900 rounded-[30px] flex-col justify-center items-center gap-4 inline-flex">
+              <div className="grow shrink basis-0 h-[282px] bg-background-secondary rounded-[30px] flex-col justify-center items-center gap-4 inline-flex">
                 <div className="p-5 bg-blue-700 rounded-[999px] justify-center items-center gap-2.5 inline-flex">
                   <svg width="66" height="66" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M23 21V46H28.4V37.5312H33.7563L38.0667 46H44L38.958 36.309C40.0197 35.6675 40.9337 34.7876 41.7 33.6694C42.5667 32.3821 43 30.8238 43 28.9946C43 27.1879 42.5778 25.6974 41.7333 24.523C40.9111 23.3261 39.9111 22.4453 38.7333 21.8808C37.5556 21.2936 36.4667 21 35.4667 21H23ZM28.4 33.4661H33.4C34.1333 33.4661 34.9222 33.0935 35.7667 32.3482C36.6333 31.603 37.0667 30.4851 37.0667 28.9946C37.0667 27.4589 36.6333 26.4201 35.7667 25.878C34.9222 25.336 34.1778 25.065 33.5333 25.065H28.4V33.4661Z" fill="white" />
@@ -38,7 +38,7 @@ export default async function HowItWorks() {
                 </div>
                 <h3 className="max-w-[220px] text-center text-white font-medium font-generalsasns leading-normal text-xl">Análise e Registro de Marcas</h3>
               </div>
-              <div className="grow shrink basis-0 h-[282px] bg-blue-900 rounded-[30px] flex-col justify-center items-center gap-2.5 inline-flex">
+              <div className="grow shrink basis-0 h-[282px] bg-background-secondary rounded-[30px] flex-col justify-center items-center gap-2.5 inline-flex">
                 <div className="p-5 bg-blue-700 rounded-[999px] justify-center items-center gap-2.5 inline-flex">
 
                   <svg width="66" height="66" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -49,7 +49,7 @@ export default async function HowItWorks() {
                 </div>
                 <h3 className="max-w-[220px] text-center text-white font-medium font-generalsasns leading-normal text-xl">Registro de Patentes</h3>
               </div>
-              <div className="grow shrink basis-0 h-[282px] bg-blue-900 rounded-[30px] flex-col justify-center items-center gap-2.5 inline-flex">
+              <div className="grow shrink basis-0 h-[282px] bg-background-secondary rounded-[30px] flex-col justify-center items-center gap-2.5 inline-flex">
                 <div className="p-5 bg-blue-700 rounded-[999px] justify-center items-center gap-2.5 inline-flex">
                   <svg width="66" height="67" viewBox="0 0 66 67" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M24.6592 59.7334H22.1204V43.8833H3.98828V41.3448H22.1204H24.6592V43.8833V59.7334ZM62.0115 41.3448V43.8833H43.8776V59.7334H41.3392V43.8833V41.3448H43.8776H62.0115ZM41.3392 7.00003H43.8776V22.8499H62.0115V25.3883H43.8776H41.3392V22.8499V7.00003ZM22.1204 7.00003H24.6592V25.3883H3.98828V22.8499H22.1204V7.00003Z" fill="white" />
@@ -62,7 +62,7 @@ export default async function HowItWorks() {
               </div>
             </div>
             <div className="max-w-[1257px] justify-center items-center gap-8 inline-flex">
-              <div className="w-72 h-[282px] bg-blue-900 rounded-[30px] flex-col justify-center items-center gap-1 inline-flex">
+              <div className="w-72 h-[282px] bg-background-secondary rounded-[30px] flex-col justify-center items-center gap-1 inline-flex">
                 <div className="p-5 bg-blue-700 rounded-[999px] justify-center items-center gap-2.5 inline-flex">
                   <div className="w-[66px] h-[66px] relative">
 
@@ -80,7 +80,7 @@ export default async function HowItWorks() {
                 </div>
                 <h3 className="max-w-[220px] text-center text-white font-medium font-generalsasns leading-normal text-xl">Consultoria para Startups</h3>
               </div>
-              <div className="w-72 h-[282px] bg-blue-900 rounded-[30px] flex-col justify-center items-center gap-1 inline-flex">
+              <div className="w-72 h-[282px] bg-background-secondary rounded-[30px] flex-col justify-center items-center gap-1 inline-flex">
                 <div className="p-5 bg-blue-700 rounded-[999px] justify-center items-center gap-2.5 inline-flex">
                   <div className="w-[66px] h-[66px] relative">
 
